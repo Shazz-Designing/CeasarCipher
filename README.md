@@ -1,7 +1,7 @@
 ## Ceaser Cipher
 A Caesar cipher is a type of substitution in which each letter is shifted a certain number of places also known as a key, down the alphabet.  For example, with a shift of 1, A would be replaced by B, B would become C, and so on., June 2022
 
-## By **Sharon Apot**
+# By **Sharon Apot**
 
 ## Description
 This is a Caesar cipher for both encoding, and decoding. The key is an integer from 1 to 25. This cipher rotates the letters of the alphabet (A to Z). The encoding replaces each letter with the 1st to 25th next letter in the alphabet (wrapping Z to A). So key 2 encrypts "HI" to "JK", but key 20 encrypts "HI" to "BC". 
@@ -17,7 +17,8 @@ This is a Caesar cipher for both encoding, and decoding. The key is an integer f
 
 
 ## BDD
- 
+![image](https://user-images.githubusercontent.com/94097509/175384648-1c1ca8b1-9e2c-4d27-a641-e637282c1cbf.png)
+
 
 ## Known Bugs
 The app still doesn’t give one an option of entering the KEY. It only asks for the string and whether one wants to Encode or decode. This is however work in progress.
