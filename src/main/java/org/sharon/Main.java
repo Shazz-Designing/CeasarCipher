@@ -1,9 +1,15 @@
 package org.sharon;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
-        String str = " THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG";
+        Scanner myObj = new Scanner(System.in);  // Create a Scanner object
+        System.out.println("Enter string");
+
+        String str = myObj.nextLine();  // Read user input
+
         System.out.println( Main.encode( str, 12));
         System.out.println( Main.decode( Main.encode( str, 12), 12));
 
