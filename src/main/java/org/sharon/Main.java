@@ -10,9 +10,22 @@ public class Main {
 
         String str = myObj.nextLine();  // Read user input
 
-        System.out.println( Main.encode( str, 12));
-        System.out.println( Main.decode( Main.encode( str, 12), 12));
+        Scanner myOper = new Scanner(System.in);
+        System.out.println("Do You Want To Encode Or Decode? Enter E For Encode Or D For Decode");
 
+        String oper = myOper.nextLine();  // Read user input
+
+        if (oper.equalsIgnoreCase("E")) {
+            System.out.println(Main.encode(str, 25));
+        }
+
+        else if(oper.equalsIgnoreCase("D")) {
+            System.out.println(Main.decode(Main.encode(str, 25), 25));
+        }
+
+        else {
+            System.out.println("Please Select A Valid Option Between E & D!");
+        }
     }
     public static String decode(String enc, int offset) {
         return encode(enc, 26-offset);
