@@ -1,5 +1,6 @@
-# Ceaser Cipher
-## A Caesar cipher is a type of substitution in which each letter is shifted a certain number of places also known as a key, down the alphabet.  For example, with a shift of 1, A would be replaced by B, B would become C, and so on., June 2022
+## Ceaser Cipher
+A Caesar cipher is a type of substitution in which each letter is shifted a certain number of places also known as a key, down the alphabet.  For example, with a shift of 1, A would be replaced by B, B would become C, and so on., June 2022
+
 ## By **Sharon Apot**
 
 ## Description
@@ -15,7 +16,7 @@ This is a Caesar cipher for both encoding, and decoding. The key is an integer f
 *To run the program in the terminal you can use 'gradle run' command
 
 
-##BDD
+## BDD
  
 
 ## Known Bugs
