@@ -32,7 +32,7 @@ The app still doesn’t give one an option of entering the KEY. It only asks for
 *Git
 
 ## Support and contact details
-Let people know what to do if they run into any issues or have questions, ideas or concerns or if you’re will to contribute towards the code
+You can contact me if you run into any issues or have questions, ideas or concerns or if you’re willing to contribute towards the code
 ### License
 *MIT LICENCE*
 Copyright (c) 2022 **Sharon Apot**
